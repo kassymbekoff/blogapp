@@ -20,4 +20,5 @@ Route::get('/', \App\Http\Controllers\IndexController::class);
 Route::get('/category/{slug}', \App\Http\Controllers\CategoryController::class);
 Route::get('/tag/{slug}', \App\Http\Controllers\TagController::class);
 Route::get('/post/{slug}', [\App\Http\Controllers\PostController::class, 'show']);
+Route::get('/search', [\App\Http\Controllers\PostController::class, 'search']);
 

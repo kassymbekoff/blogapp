@@ -3,7 +3,7 @@
     <!-- Search Widget -->
     <div class="card my-4">
         <h5 class="card-header">Search</h5>
-        <form class="card-body" action="" method="GET" role="search">
+        <form class="card-body" action="/search" method="GET" role="search">
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search for..." name="q">
                 <span class="input-group-btn">
@@ -12,9 +12,6 @@
             </div>
         </form>
     </div>
-    <a href="https://www.techjblog.com/index.php/tutorials/laravel-tutorial-9-search-pagination-related-posts-and-other-functions/#0-search/">How
-        to Add Search Function for Your Blog</a>
-
     <!-- Categories Widget -->
     <div class="card my-4">
         <h5 class="card-header">Categories</h5>
