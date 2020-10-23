@@ -30,7 +30,7 @@ class IndexController extends Controller
                     ->orderBy('created_at', 'desc')
                     ->take(5)
                     ->get();
-        return view('home', [
+        return view('homepage', [
             'website' => $website,
             'featuredPosts' => $featuredPosts,
             'posts' => $posts,

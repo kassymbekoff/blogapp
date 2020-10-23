@@ -34,7 +34,7 @@
                         Tutorial</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/nova">Admin</a>
+                    <a class="nav-link" href="/admin">Admin</a>
                 </li>
             </ul>
         </div>
