@@ -42,7 +42,7 @@
 </nav>
 
 <!-- Page Content -->
-<div class="container">
+<div class="container" style="padding-top: 40px;">
 
     @yield('content')
 
@@ -59,7 +59,7 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="{{asset('vendor/bootstrap/js/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
 <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
 </body>
